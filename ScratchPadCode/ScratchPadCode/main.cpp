@@ -7,9 +7,27 @@
 //
 
 #include <iostream>
+#include "LinkedList.hpp"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    vector<int> v;
+    
+    for(unsigned int i = 0; i < 6; i++){
+        v.push_back(i);
+    }
+    LinkedList ll(v);
+    
+    ll.print();
+    ll.reverse();
+    ll.print();
+    ll.insertElementSet(v);
+    v.push_back(7);
+    ll.insertElementSet(v);
+    ll.print();
+    
+    
     return 0;
 }
