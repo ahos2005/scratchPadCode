@@ -6,10 +6,11 @@
 //  Copyright © 2018 Ahmed Elhosseiny. All rights reserved.
 //
 
-using namespace std;
 
 #include <iostream>
 #include "LinkedList.hpp"
+
+using namespace std;
 
 LinkedList::LinkedList()
 {

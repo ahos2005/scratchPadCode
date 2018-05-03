@@ -1,7 +1,9 @@
 // main.cpp : Defines the entry point for the console application.
 //
 
+#ifdef _WIN32
 #include "stdafx.h"
+#endif
 #include <iostream>
 #include <unordered_map>
 #include <unordered_set>
